@@ -42,14 +42,7 @@ Reduced 32 features to 5 principal components (84% variance explained).
 
 We identified several towns with unusual patterns. Three notable examples:
 
-- **Alburgh** (Grand Isle County): 67.5% FRPL in Vermont's second-wealthiest county — a struggling town hidden within an affluent region
+- **Alburgh** (Grand Isle County): 67.5% FRPL in one of Vermont's wealthiest counties — a struggling community hidden within an affluent region
 - **Craftsbury Common** (Orleans County): Only 13% FRPL despite being in a high-hardship county — a pocket of prosperity
 - **Newport** (Orleans County): 59% FRPL with high variance between schools — some schools in town are struggling much more than others
 
----
-
-## Files
-
-- `vermont_clusters.csv` — 191 towns with cluster assignments
-- `vermont_anomalies.csv` — Anomaly towns with details
-- `vermont_feature_matrix.csv` — Full feature matrix
