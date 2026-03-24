@@ -1,8 +1,6 @@
 # Vermont Economic Hardship Analysis
 
-Unsupervised learning analysis of economic hardship across Vermont's 191 towns using K-Means clustering, PCA, and anomaly detection.
-
-**Data**: Census ACS 2022 (county economics) + NCES CCD 2022 (school lunch eligibility)
+Using public data from the U.S. Census Bureau (county-level poverty, income, SNAP rates) and NCES Common Core of Data (school-level free/reduced lunch eligibility), we analyzed economic hardship across Vermont's 191 towns. We applied PCA to reduce 32 features into interpretable components, then used K-Means clustering to group towns by hardship profile, and finally ran anomaly detection to identify towns with unusual patterns that might be overlooked.
 
 ---
 
@@ -36,23 +34,22 @@ Reduced 32 features to 5 principal components (84% variance explained).
 ![Vermont Map](fig17_vermont_map.png)
 
 - **Northeast Kingdom** (Orleans, Essex): Mostly red/orange — highest hardship
-- **Chittenden County**: Green — most affluent
-- **Alburgh**: 67.5% FRPL in Grand Isle County (Vermont's wealthiest) — a "hidden need" town
+- **Chittenden County**: Mostly green — most affluent
 
 ---
 
 ## Anomaly Detection
 
-19 towns flagged as outliers. Key examples:
+We identified several towns with unusual patterns. Three notable examples:
 
-- **Alburgh**: High poverty in wealthy county
-- **Burlington**: 48% FRPL, high inequality between schools
-- **Newport**: 59% FRPL, regional hub in struggling area
+- **Alburgh** (Grand Isle County): 67.5% FRPL in Vermont's second-wealthiest county — a struggling town hidden within an affluent region
+- **Craftsbury Common** (Orleans County): Only 13% FRPL despite being in a high-hardship county — a pocket of prosperity
+- **Newport** (Orleans County): 59% FRPL with high variance between schools — some schools in town are struggling much more than others
 
 ---
 
 ## Files
 
 - `vermont_clusters.csv` — 191 towns with cluster assignments
-- `vermont_anomalies.csv` — 19 anomaly towns
+- `vermont_anomalies.csv` — Anomaly towns with details
 - `vermont_feature_matrix.csv` — Full feature matrix
