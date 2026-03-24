@@ -1,0 +1,6 @@
+cluster,cluster_name,n_towns,weighted_frpl_rate,total_enrollment,county_median_income,county_poverty_rate,county_snap_rate,school_frpl_variance,num_schools,hardship_score
+1,High Hardship - Rural Poor,35,53.74,240.29,64360.83,10.93,13.47,10.86,1.17,2.23
+2,Elevated Hardship - Small Towns,45,27.94,217.98,64069.24,11.76,12.8,10.33,1.2,0.55
+3,Moderate - Mixed Profile,47,38.75,286.94,74508.94,9.14,9.79,8.91,1.3,0.12
+4,Lower Hardship - Urban Centers,15,31.45,2104.47,77804.73,10.33,9.66,91.9,4.8,-0.73
+5,Low Hardship - Affluent Areas,49,16.65,338.94,80218.29,9.31,9.17,1.86,1.22,-1.98
