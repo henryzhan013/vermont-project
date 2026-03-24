@@ -1,0 +1,20 @@
+town,county,cluster,cluster_name,frpl_rate,enrollment,income,anomaly_score,reason,category
+Burlington,Chittenden,4,Lower Hardship - Urban Centers,48.29,3473.0,89494,-0.1641394534325027,total_enrollment: high (z=5.0); county_median_income: high (z=1.9); school_frpl_variance: high (z=1.6); num_schools: high (z=6.4),Large Urban Center
+Essex Junction,Chittenden,4,Lower Hardship - Urban Centers,16.38,3541.0,89494,-0.16161800705375184,total_enrollment: high (z=5.1); county_median_income: high (z=1.9); num_schools: high (z=5.5),Large Urban Center
+Saint Albans,Franklin,4,Lower Hardship - Urban Centers,28.72,3029.0,73633,-0.14523761850219652,total_enrollment: high (z=4.3); school_frpl_variance: high (z=7.2); num_schools: high (z=2.1),Large Urban Center
+Brattleboro,Windham,4,Lower Hardship - Urban Centers,42.34,1854.0,65473,-0.09998774204739158,total_enrollment: high (z=2.3); school_frpl_variance: high (z=5.2); num_schools: high (z=3.0),Large Urban Center
+Plainfield,Washington,3,Moderate - Mixed Profile,33.09,414.0,77278,-0.07327303372886973,school_frpl_variance: high (z=4.1),High Inequality Within Town
+Canaan,Essex,2,Elevated Hardship - Small Towns,31.36,169.0,55247,-0.06251192764542579,county_median_income: low (z=-1.8); county_snap_rate: high (z=2.3),Unusual Profile
+Orleans,Orleans,1,High Hardship - Rural Poor,47.78,517.0,63981,-0.062067748854754634,school_frpl_variance: high (z=4.2),High Inequality Within Town
+South Burlington,Chittenden,4,Lower Hardship - Urban Centers,16.44,2700.0,89494,-0.056447602889254656,total_enrollment: high (z=3.7); county_median_income: high (z=1.9); num_schools: high (z=3.0),Large Urban Center
+Newport,Orleans,1,High Hardship - Rural Poor,58.75,994.0,63981,-0.042420508952453084,weighted_frpl_rate: high (z=1.7); school_frpl_variance: high (z=3.1); free_lunch_rate: high (z=1.8),High Inequality Within Town
+Craftsbury Common,Orleans,2,Elevated Hardship - Small Towns,13.04,207.0,63981,-0.03942177584153217,Unusual combination of features,Unusual Profile
+Bennington,Bennington,4,Lower Hardship - Urban Centers,50.17,2354.0,68558,-0.034695347581663705,total_enrollment: high (z=3.2); school_frpl_variance: high (z=2.9); num_schools: high (z=3.8); county_snap_rate: high (z=1.7),Large Urban Center
+Danville,Caledonia,2,Elevated Hardship - Small Towns,23.43,350.0,62964,-0.021275484122757482,Unusual combination of features,Unusual Profile
+Alburg,Grand Isle,1,High Hardship - Rural Poor,67.53,194.0,86639,-0.020134704126297587,weighted_frpl_rate: high (z=2.3); county_median_income: high (z=1.6); free_lunch_rate: high (z=2.0); reduced_lunch_rate: high (z=1.7),Hidden Need - High FRPL in Wealthy County
+Williston,Chittenden,5,Low Hardship - Affluent Areas,15.29,942.0,89494,-0.019253233044975726,county_median_income: high (z=1.9),Unusual Profile
+Windsor,Windsor,3,Moderate - Mixed Profile,33.28,580.0,69492,-0.019215468128699897,Unusual combination of features,Unusual Profile
+Wells River,Orange,3,Moderate - Mixed Profile,44.53,411.0,74534,-0.01675765803068663,Unusual combination of features,Unusual Profile
+Jericho,Chittenden,5,Low Hardship - Affluent Areas,6.06,1534.0,89494,-0.014243839659804802,weighted_frpl_rate: low (z=-1.8); total_enrollment: high (z=1.8); county_median_income: high (z=1.9); free_lunch_rate: low (z=-1.7),Unusual Profile
+Colchester,Chittenden,4,Lower Hardship - Urban Centers,23.45,2414.0,89494,-0.003199389851718748,total_enrollment: high (z=3.3); county_median_income: high (z=1.9); num_schools: high (z=3.0),Large Urban Center
+West Rutland,Rutland,2,Elevated Hardship - Small Towns,30.98,326.0,62641,-0.0026191497586991463,Unusual combination of features,Unusual Profile
