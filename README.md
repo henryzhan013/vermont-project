@@ -42,8 +42,6 @@ I grouped the towns into 5 clusters, ordered from most to least hardship:
 
 ## Anomaly Detection
 
-I used Isolation Forest to find towns that don't fit the usual patterns. Two stood out:
+I used Isolation Forest to find towns that don't fit the usual patterns. One stood out:
 
 - **Alburgh** (Grand Isle County): 67.5% FRPL in one of Vermont's wealthiest counties — a struggling community that might get overlooked because the county-level stats look fine.
-
-- **Newport** (Orleans County): 59% FRPL with notable variation between schools — one school at 53%, another at 71% (17 percentage point gap). The variance is about 3x the state average.
